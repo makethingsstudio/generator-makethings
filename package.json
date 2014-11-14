@@ -1,0 +1,40 @@
+{
+  "name": "generator-makethings",
+  "version": "0.0.0",
+  "description": "Make Things Development Generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "benkutil/generator-makethings",
+  "author": {
+    "name": "Ben Kutil",
+    "email": "ben@make-things.com",
+    "url": "https://github.com/benkutil"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.0",
+    "execSync": "^1.0.2",
+    "fs-extra": "^0.12.0",
+    "path": "^0.4.9",
+    "underscore.string": "^2.3.3",
+    "yeoman-generator": "^0.17.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
